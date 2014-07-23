@@ -1,6 +1,6 @@
 # LikesCounter
 
-TODO: Write a gem description
+This gem return the fan counter (likes) for a page on facebook.
 
 ## Installation
 
@@ -18,12 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    LikesCounter::Page.by_id(<page_id>)
+    # or multiple
+    LikesCounter::Page.by_id(<page_id>, <page_id>, ...)
 
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/likes_counter/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request

@@ -1,5 +1,6 @@
 require "likes_counter/version"
+require "likes_counter/page"
+require "likes_counter/query"
 
 module LikesCounter
-  # Your code goes here...
 end

@@ -6,12 +6,11 @@ require 'likes_counter/version'
 Gem::Specification.new do |spec|
   spec.name          = "likes_counter"
   spec.version       = LikesCounter::VERSION
-  spec.authors       = ["JoJoS"]
-  spec.email         = ["jojos003@free.fr"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.authors       = ["Jonathan GEORGES", "Arnaud de Saint-Alary"]
+  spec.email         = ["jonathan@cyphoma.com", "arnaud.dsa@gmail.com"]
+  spec.summary       = %q{A likes counter for Facebook's pages}
+  spec.description   = %q{}
   spec.homepage      = ""
-  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
